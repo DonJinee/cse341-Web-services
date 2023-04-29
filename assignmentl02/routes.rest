@@ -12,14 +12,3 @@ GET http://localhost:3000/contacts/644d8d5944a9514f3fec9fe9
 GET http://localhost:3000/contacts/644d8d8e44a9514f3fec9fea
 
 // PRODUCTION Deploy 
-### 
-GET https://cse341-instructor.herokuapp.com/contacts 
-
-### 
-GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b2 
-
-### 
-GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b3 
-
-### 
-GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b4
