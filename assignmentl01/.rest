@@ -1,0 +1,7 @@
+Get http://localhost:3000 HTTP/1.1
+
+###
+Get http://localhost:3000/second HTTP/1.1
+
+###
+Get https://cse341-web-services.onrender.com/ HTTP/1.1
