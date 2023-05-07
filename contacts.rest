@@ -1,0 +1,29 @@
+Get http://localhost:3000/contacts HTTP/1.1
+
+###
+Get http://localhost:3000/contacts/6456d3380b18b4f6ade397bb HTTP/1.1
+
+### PUT contact 
+PUT http://localhost:3000/contacts/644d8d1044a9514f3fec9fe8 HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Utibe",
+    "lastName": "Omachona",
+    "email": "princessutibe700@test.com",
+    "favoriteColor": "Blue & Pink",
+    "birthday": "22/04/1995"
+  }
+
+###
+### Create contact 
+POST http://localhost:3000/contacts HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Don", 
+"lastName":"Jinee", 
+"email":"don@test.com", 
+"favoriteColor":"Blue", 
+"birthday":"27/04/2000"
+}
